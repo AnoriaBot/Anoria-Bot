@@ -2,7 +2,7 @@ const Discord = require ("discord.js");
 const client = new Discord.Client ();
 var prefix = ("!");
 
-client.login('NTQzNDE0OTg3NDgyMjAyMTEy.Dz8OLw.-vQ7oplSQ81gVH7mRiY5bDXbaCk');
+client.login(process.env.TOKEN);
 
 client.on('ready', () => {
     console.log("Connexion Effectuée.")
